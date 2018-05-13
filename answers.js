@@ -45,4 +45,11 @@ for (var a = 0; a >= -300; --a*3 ){
 }
 
 
+// Printing Integers with While
+// Print integers from 2000 to 5280, using a WHILE.
+var num2k = 2000
+while (num2k < 5280){
+	console.log(num2k);
+	num2k = num2k + 1;
+}
 
