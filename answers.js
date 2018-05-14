@@ -47,9 +47,61 @@ for (var a = 0; a >= -300; --a*3 ){
 
 // Printing Integers with While
 // Print integers from 2000 to 5280, using a WHILE.
-var num2k = 2000
+var num2k = 2000;
 while (num2k < 5280){
 	console.log(num2k);
 	num2k = num2k + 1;
 }
+
+//You Say It’s Your Birthday
+//If 2 given numbers represent your birth month
+//and day in either order, log "How did you
+//know?", else log "Just another day...."
+
+var month = " ";
+var day = " ";
+function myBirthday(month,day) {
+    if (day == 23 || month == 8){
+	    console.log("How did you know?");
+    }
+    else
+    {
+	    console.log("Just another day...");
+    }
+}
+
+
+//Leap Year
+//Write a function that determines whether a given
+//year is a leap year. If a year is divisible by four,
+//it is a leap year, unless it is divisible by 100.
+//However, if it is divisible by 400, then it is.
+
+// Will evaluate to true if the variable is divisible by 4
+var year = " ";
+var x = 4;
+var y = year % x;
+var z = 100;
+var w = year % z;
+var v = 400;
+var vv= year % v;
+function leapYear() {
+	if (y === 0){
+		console.log("Year is a Leap Year");
+	}
+    else if (w === 0){
+    	console.log("Year is divisible by 100");
+    }
+    else if (vv === 0){
+    	console.log("However, 400 is divisible");
+    }
+
+}
+
+
+
+
+
+
+
 
